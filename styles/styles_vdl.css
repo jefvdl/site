@@ -1,0 +1,739 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bodystyle
+{
+	background-color: #FFFFFF;
+	margin: 0px;
+	height: auto;
+	text-align: center;
+}
+
+#wrapper {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 826px;
+	height: 580px;
+	margin-left: -413px; /* half of width */
+	margin-top: -290px;  /* half of height */
+	background-color: #FFFFFF;
+ }
+
+
+#canvas {
+	position:absolute;
+	left: 50%;
+	top :50%;
+	width: 1000px;
+	height: 620px;
+	margin-left: -500px; /* half of width */
+	margin-top: -310px;  /* half of height */
+	background-color: #FFFFFF;
+ }
+#navigatie {
+	position:absolute;
+	left:2px;
+	top:-6px;
+	width:300px;
+	height:360px;
+	z-index:2;
+	background-color: #FFFFFF;
+	text-align: left;
+}
+#projectnavigatie {
+	position:absolute;
+	left:0px;
+	top:401px;
+	width:340px;
+	height:180px;
+	z-index:1;
+}
+#publicatiesnavigatie {
+	position:absolute;
+	left:0px;
+	top:360px;
+	width:460px;
+	height:180px;
+	z-index:1;
+}
+#infotekst {
+	position:absolute;
+	left:710px;
+	top:0px;
+	width:300px;
+	height:280px;
+	z-index:2;
+	visibility: visible;
+}
+#project_tekst {
+	position:absolute;
+	left:710px;
+	top:0px;
+	width:300px;
+	height:280px;
+	z-index:1;
+	visibility: hidden;
+}
+#asjProjecten {
+	position:absolute;
+	left:830px;
+	top:0px;
+	width:180px;
+	height:180px;
+	z-index:1;
+}
+#foto1 {
+	position:absolute;
+	left:340px;
+	top:0px;
+	width:486px;
+	height:340px;
+	z-index:1;
+	visibility: visible;
+}
+#foto2 {
+	position:absolute;
+	left:470px;
+	top:0px;
+	width:540px;
+	height:540px;
+	z-index:1;
+	visibility: hidden;
+}
+#foto3 {
+	position:absolute;
+	left:470px;
+	top:0px;
+	width:540px;
+	height:540px;
+	z-index:1;
+	visibility: hidden;
+}
+#foto4 {
+	position:absolute;
+	left:470px;
+	top:0px;
+	width:540px;
+	height:540px;
+	z-index:1;
+	visibility: hidden;
+}
+#foto5 {
+	position:absolute;
+	left:470px;
+	top:0px;
+	width:540px;
+	height:540px;
+	z-index:1;
+	visibility: hidden;
+}
+#foto6 {
+	position:absolute;
+	left:470px;
+	top:0px;
+	width:540px;
+	height:540px;
+	z-index:1;
+	visibility: hidden;
+}
+#foto7 {
+	position:absolute;
+	left:470px;
+	top:0px;
+	width:540px;
+	height:540px;
+	z-index:1;
+	visibility: hidden;
+}
+#foto8 {
+	position:absolute;
+	left:470px;
+	top:0px;
+	width:540px;
+	height:540px;
+	z-index:1;
+	visibility: hidden;
+}
+#foto9 {
+	position:absolute;
+	left:470px;
+	top:0px;
+	width:540px;
+	height:540px;
+	z-index:1;
+	visibility: hidden;
+}
+#foto10 {
+	position:absolute;
+	left:470px;
+	top:0px;
+	width:540px;
+	height:540px;
+	z-index:1;
+	visibility: hidden;
+}
+#foto11 {
+	position:absolute;
+	left:470px;
+	top:0px;
+	width:540px;
+	height:540px;
+	z-index:1;
+	visibility: hidden;
+}
+#foto12 {
+	position:absolute;
+	left:470px;
+	top:0px;
+	width:540px;
+	height:540px;
+	z-index:1;
+	visibility: hidden;
+}
+#foto13 {
+	position:absolute;
+	left:470px;
+	top:0px;
+	width:540px;
+	height:540px;
+	z-index:1;
+	visibility: hidden;
+}
+#foto14 {
+	position:absolute;
+	left:470px;
+	top:0px;
+	width:540px;
+	height:540px;
+	z-index:1;
+	visibility: hidden;
+}
+#projectText {
+	position:absolute;
+	left:470px;
+	top:46px;
+	width:540px;
+	height:540px;
+	z-index:1;
+}
+.navigatie_wit {
+	font-size: 38px;
+	background-color: #FFFFFF;
+}.navigatie_grijs {
+	font-size: 38px;
+	background-color: #E0E0E0;
+}
+
+.navigatieJanssensEXT {
+	font-size: 38px;
+	background-color: #DDDDDD;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 38px;
+	color: #FFFFFF;
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #676767;
+	font-weight: bold;
+}
+.grijsV3 {
+	color: #636363;
+}
+.grijsV2 {
+	color: #8F8F8F;
+}
+.grijsV1 {
+	color: #DDDDDD;
+	text-align: justify;
+}
+.grijsV3link {
+	color: #636363;
+	text-decoration: none;
+}
+.grijsV3link a:hover{
+	color: #2B2B2B;
+	text-decoration: none;
+}
+
+
+.bottom {
+	vertical-align: bottom;
+}
+
+.navigatie_txt_TopBottomLine {
+	font-size: 14px;
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 38px;
+	color: #8F8F8F;
+	text-align: justify;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #676767;
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #676767;
+}
+.navigatie_txt_bottomLine {
+	font-size: 38px;
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 38px;
+	color: #8F8F8F;
+	text-align: justify;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #676767;
+	font-weight: bold;
+}
+.navigatie_txt_bottomLine_actief {
+	font-size: 38px;
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 38px;
+	color: #636363;
+	text-align: justify;
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #676767;
+	font-weight: bold;
+	border-top-width: 2px;
+	border-top-style: dotted;
+	border-top-color: #FFFFFF;
+}
+
+.navigatie_txt_expand {
+	font-size: 14px;
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 38px;
+	color: #8F8F8F;
+	text-align: justify;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #676767;
+}
+.bottomLeft {
+	vertical-align: bottom;
+	text-align: left;
+}
+#pojectText {
+	position:absolute;
+	left:472px;
+	top:-2px;
+	width:540px;
+	height:540px;
+	z-index:1;
+	visibility: hidden;
+}
+.bodystyle #wrapper #pojectText td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #696969;
+	line-height: 15px;
+	text-align: justify;
+	vertical-align: bottom;
+}
+#footLine {
+	position:absolute;
+	left:0px;
+	top:594px;
+	width:1010px;
+	height:22px;
+	z-index:1;
+}
+#cijfernavigatie {
+	position:absolute;
+	left:466px;
+	top:546px;
+	width:548px;
+	height:40px;
+	z-index:1;
+}
+.bottom {
+	vertical-align: bottom;
+}
+.top {
+	vertical-align: top;
+}
+
+.bodystyle #wrapper #infotekst table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #696969;
+	text-align: justify;
+}
+.borderDashed {
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-top-color: #4E4E4E;
+	border-bottom-color: #4E4E4E;
+}
+.borderDotted {
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-top-color: #4E4E4E;
+	border-bottom-color: #4E4E4E;
+}
+.margin2px {
+	margin-right: 4px;
+	margin-left: 4px;
+}
+
+
+.bodystyle #wrapper #cijfernavigatie td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #DDDDDD;
+	border: 1px dashed #595959;
+	text-align: center;
+	line-height: 20px;
+	font-weight: bold;
+}
+.fotonavigatieUsed {
+	background-color: #DDDDDD;
+}
+
+
+.navigatie_txt_asj {
+	font-size: 14px;
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 38px;
+	color: #FFFFFF;
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-color: #676767;
+	font-weight: bold;
+}
+.navigatie_txt_topLine {
+	font-size: 38px;
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 38px;
+	color: #DDDDDD;
+	text-align: left;
+	font-weight: bold;
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #676767;
+}
+
+.navigatie_txt_asj_TopBottomLine {
+	font-size: 38px;
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 38px;
+	color: #DDDDDD;
+	text-align: left;
+	border-bottom-width: 2px;
+	border-bottom-color: #FFFFFF;
+	font-weight: bold;
+	border-top-width: 2px;
+	border-top-color: #FFFFFF;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+}
+.projectlijst {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #696969;
+	text-align: left;
+	text-indent: 3px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #FFFFFF;
+	text-decoration: none;
+}
+.bodystyle #wrapper #naviagatie .navigatie_txt a {
+	text-decoration: none;
+	color: #8F8F8F;
+}
+.bodystyle  #wrapper  #naviagatie  .navigatie_txt_asj_TopBottomLine  .linkArchitectenBureau:hover {
+	color: #636363;
+}
+
+.bodystyle  #wrapper  #naviagatie  .navigatie_txt  a:hover  {
+	color: #636363;
+}
+
+.linkArchitectenBureau {
+	color: #DDDDDD;
+	text-decoration: none;
+}
+.projectActief {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #676767;
+}
+.top-2px {
+	vertical-align: top;
+	margin-top: 2px;
+	padding-top: 2px;
+}
+.topBottom-2px {
+	vertical-align: top;
+	margin-top: 2px;
+	padding-top: 2px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+}
+.navigatie_txt_actief {
+	font-size: 24px;
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 38px;
+	color: #FFFFFF;
+	text-align: left;
+	text-decoration: none;
+}
+.bodystyle #wrapper #project_tekst table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #696969;
+	text-align: justify;
+}
+#fotonavigatie {
+	position:absolute;
+	left:0px;
+	top:514px;
+	width:460px;
+	height:40px;
+	z-index:1;
+}
+.bodystyle #wrapper #fotonavigatie td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #636363;
+	border: 1px dashed #595959;
+	text-align: center;
+	line-height: 20px;
+}
+.navigatie_txt_asjEXTend {
+	font-size: 38px;
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 38px;
+	color: #8F8F8F;
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-color: #FFFFFF;
+	font-weight: bold;
+	border-bottom-style: dotted;
+}
+.asjSpacing {
+	letter-spacing: 0.05em;
+}
+
+.bodystyle #wrapper #naviagatie .navigatie_txt_bottomLine a {
+	text-decoration: none;
+	color: #8F8F8F;
+}
+.bodystyle #wrapper #naviagatie .navigatie_txt_bottomLine a:hover {
+	color: #636363;
+	text-align: justify;
+}
+.bureauSpacing {
+	letter-spacing: -0.07em;
+}
+.grijsV1Contact {
+	text-align: justify;
+}
+.bodystyle #wrapper #naviagatie .navigatie_txt .grijsV1Contact a:hover{
+	color: #636363;
+}
+.bodystyle #wrapper #naviagatie .navigatie_txt .grijsV2 a:hover {
+	color: #636363;
+}
+
+.bureauSpacingDark {
+	letter-spacing: -0.1em;
+	color: #636363;
+}
+.pubSpacing {
+	letter-spacing: 0.025em;
+}
+.contactSpacing {
+	letter-spacing: -0.05em;
+}
+.pubSpacingActive {
+	letter-spacing: -0.1em;
+	color: #636363;
+}
+.projectenAtive {
+	color: #636363;
+}
+
+.bureauSpacingActive {
+	letter-spacing: -0.07em;
+	color: #636363;
+}
+.grijsV1ContactActive {
+	color: #636363;
+	text-align: justify;
+}
+.contactSpacingActive {
+	letter-spacing: -0.05em;
+	color: #636363;
+}
+.publicatielijst {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #696969;
+	text-align: left;
+	text-indent: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #FFFFFF;
+	text-decoration: none;
+}
+.bodystyle #wrapper #publicatiesnavigatie .publicatielijst .publicatielijst a:hover {
+	color: #333333;
+}
+.bodystyle #wrapper #publicatiesnavigatie .publicatielijst td a:hover {
+	color: #333333;
+}
+.publicaties {
+	color: #8F8F8F;
+}
+.bodystyle #wrapper #naviagatie .navigatie_txt_bottomLine .publicaties a:hover {
+	color: #636363;
+}
+.projectenSpacing {
+}
+.bodystyle #wrapper #naviagatie .navigatie_txt_topLine a {
+	text-decoration: none;
+	color: #8F8F8F;
+}
+.bodystyle #wrapper #naviagatie .navigatie_txt_topLine a:hover {
+	text-decoration: none;
+	color: #636363;
+}
+.publicatiesActive {
+	color: #636363;
+}
+#dizign {
+	position:absolute;
+	left:470px;
+	top:546px;
+	width:540px;
+	height:20px;
+	z-index:1;
+}
+#dizignFotografie {
+	position:absolute;
+	left:830px;
+	top:0px;
+	width:180px;
+	height:40px;
+	z-index:1;
+}
+.dizignLeft {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #8F8F8F;
+	text-align: left;
+	text-decoration: none;
+}
+.dizignRight {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #8F8F8F;
+	text-align: right;
+	text-decoration: none;
+}
+.bodystyle #wrapper #infotekst .borderDashed .top .bottom .grijsV3link a:hover {
+	color: #242424;
+	text-decoration: none;
+}
+.bodystyle #wrapper #infotekst .borderDashed .top table a:hover {
+	color: #393939;
+}
+.navigatie_txt {
+	font-size: 24px;
+	font-family: "Courier New", Courier, monospace;
+	line-height: 38px;
+	color: #FFFFFF;
+	text-align: left;
+	background-color: #5A6181;
+	top: 0px;
+	text-decoration: none;
+}
+.bodystyle #wrapper #navigatie .navigatie_txt a:hover {
+	background-color: #7A83A3;
+	text-decoration: none;
+}
+
+.jefIntro {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 24px;
+	color: #5A6181;
+	line-height: 24px;
+	letter-spacing: -0.05em;
+}
+.jefVDLIntro {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 24px;
+	color: #5A6181;
+	line-height: 24px;
+	font-weight: bold;
+}
+#baseImage {
+	position:absolute;
+	left:340px;
+	top:513px;
+	width:486px;
+	height:70px;
+	z-index:1;
+}
+#backgroundImage {
+	position:absolute;
+	left:0px;
+	top:220px;
+	width:340px;
+	height:280px;
+	z-index:1;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+#contacttext {
+	position:absolute;
+	left:340px;
+	top:340px;
+	width:486px;
+	height:166px;
+	z-index:1;
+	visibility: visible;
+}
+.vdlContactText {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	color: #5A6181;
+	line-height: 16px;
+	text-decoration: none;
+}
+.navigatie_txt_actief {
+	font-size: 24px;
+	font-family: "Courier New", Courier, monospace;
+	line-height: 38px;
+	color: #FFFFFF;
+	text-align: left;
+	background-color: #7A83A3;
+	top: 0px;
+	text-decoration: none;
+}
+.bold {
+	font-weight: bold;
+}
+.boldExtended {
+	font-weight: bold;
+	letter-spacing: 0.08em;
+}
